@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// prototipo
+// prototype
 void buildStair(int h);
 
 int main(void)
@@ -16,10 +16,9 @@ int main(void)
     buildStair(h);
 }
 
-// constroi escada
 void buildStair(int h)
 {
-    // faz pirâmide
+    // loop that builds the stair at the right direction
     for (int i = 1; i <= h; i++)
     {
         for (int k = h; k > i; k--)
